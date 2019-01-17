@@ -1,0 +1,361 @@
+body, h1, h2, h3, h4, h5, h6, p, div, button{
+  font-family: Nunito;
+}
+body{
+  font-size: 14px;
+}
+input {
+  font-size: 14px !important; 
+}
+
+.profile {
+    margin: 100px 0;
+  }
+  .profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+  }
+  footer {
+    font-family: 'Pacifico','Merienda';
+    // position: fixed-bottom;
+    background-color: teal;
+    color: white;
+    padding: 5px; 
+}
+
+  .nav-item {
+    margin: 5px 10px;
+  }
+
+  form {
+    padding: 10px;
+    position: relative;
+    align-content: center;
+    padding: 5%;
+  }
+  form button {
+    margin: 15px;
+  }
+  #addbook{
+    float: right;
+    background-color: teal;
+  }
+
+.authenticationWrapper {
+    color: #000;
+    font-family: 'Quicksand', 'Roboto', 'Ubuntu Mono', sans-serif;
+    text-align: center;
+    padding: 13px;
+    margin-top: 13%;
+  }
+  
+  .authenticationBox {
+    background-color: rgba(255, 255, 255, 0.8);
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .background {
+    background-image: url('http://res.cloudinary.com/babadee30/image/upload/q_100/v1507808251/books6_ih8rqm.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .bookswrapper {
+    margin: 0 auto;
+    padding: 38px;
+    border-bottom: 1px #ccc solid;
+  }
+  
+  .mg-btm {
+    margin-bottom: 20px;
+  }
+  .book {
+    width: 100px;
+    box-shadow: white 4px 3px 4px 5px;
+  }
+  .row-centered {
+    text-align: center;
+  }
+  .col-centered {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 6px;
+    border-radius: 10px;
+    display: inline-block;
+    float: none;
+    top: 246px;
+    color: white;
+  }
+  .col-centered a {
+    margin: 5px;
+  }
+  .navbar a {
+    margin: 15px;
+  }
+  .navitems {
+    margin-bottom: 5px;
+  }
+  #cover {
+    height: 250px;
+  }
+  #returned {
+    color: teal; 
+  }
+  .profile-usermenu {
+    color: teal;
+  }
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+   }
+  .headcard {
+    color: teal;
+  }
+  .card-action {
+    padding: 23px 24px !important;
+    height: 80px !important;
+  }
+  @media screen and (max-width: 1366px) and (min-width: 1024px) {
+    .side-nav {
+      width: 250px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1366px) {
+    .side-nav {
+      width: 360px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .side-nav {
+      width: 260px !important;
+    }
+  }
+  .avatar {
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+  }
+  .sidenav {
+    text-align: center;
+    color: #000;
+    background-color: #008080;
+    margin-top: -16;
+    border-color: transparent;
+  }
+  .Navwrapper {
+    background-color: teal;
+  }
+  .nav-wrapper {
+    background-color: teal;
+  }
+  .nav-wrapper .brand-logo{
+    margin-left: 120;
+  }
+  .side-nav-fixed{
+    margin-top: 4.6em !important;
+  }
+  .addbook {
+    margin-top: 40;
+    width: 70%;
+    background-color: #fff;
+    margin-right: 100;
+    margin-left: 100;
+  }
+  .card.horizontal {
+    margin-top: -20px;
+  }
+  .card .card-image .card-title {
+    background-color: rgba(28, 31, 30, 0.66) !important;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .card .card-image {
+    height: 250px !important;
+  }
+  .card .card-content .card-title {
+    width: max-content;
+  }
+  .error-template {
+    padding: 40px 15px;text-align: center;
+  }
+  .error-actions {
+    margin-top:15px;margin-bottom:15px;
+  }
+  .error-actions .btn {
+    margin-right:10px; 
+    background-color: teal !important;
+  }
+  .error-actions .a {
+    margin: 10;
+  }
+  
+  .error-actions .text{
+    margin: 10;
+  }
+  .logcard {
+    max-width: 18rem;
+    margin: 10px
+  }
+  .cardstyle {
+    padding: 1.5rem;
+    margin-top: 10%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 25%;
+    border-width: .2rem;
+    position: relative;
+  }
+  .card-wrapper {
+    margin-top: 10%;
+  }
+  
+  .cardbox {
+    text-align: center;
+    min-height: 200px !important;
+    border-radius: 8px;
+    padding: 20px !important;
+    width: 80%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  .card-text{
+    font-size: 500%;
+  }
+  #sidenav-overlay {
+    background-color: rgba(0,0,0,0.0);
+  }
+  .about {
+    margin-top: 6%;
+    margin-bottom: 60px;
+    letter-spacing: 0.8px;
+    font-weight: 100;
+  }
+  .about p {
+    font-size: 40px !important;
+    color: #868690;
+    font-family: "Maven Pro", "Roboto", "Helvetica Neue", Helvetica, sans-serif
+  }
+  div.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: rgba(6, 95, 124, 0.94) url('https://loading.io/spinners/equalizer/lg.equalizer-bars-loader.gif') 
+    no-repeat center center;
+  }
+  .records p{
+    margin: 20px;
+  }
+  .records p span{
+    color: #000;
+  }
+  .checkmark {
+    height: 50px;
+    width: 50px;
+  }
+  .navbar-fixed {
+    z-index: 999;
+  }
+  .profilecard img{
+    max-width: 300px !important;
+  }
+  .profilecard a {
+    margin: 24px 0;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  .profilecard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: arial;
+    max-height: 300px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .profilecard button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+    margin: 20px;
+  }
+  #editbutton {
+    background-color: rgb(21, 179, 157);
+    color: #fff;
+    float: right;
+  }
+  #message {
+    color: #266767;
+  }
+  .nav-wrapper .brand-logo {
+    color: white !important;
+  }
+  .nav-wrapper .brand-logo:hover, .nav-wrapper .brand-logo:focus, .nav-wrapper .brand-logo:visited {
+    color: white !important;
+    text-decoration: none;
+  }
+  .brand-logo {
+    color: white!important;
+  }
+
+  nav ul a{
+    font-size: 14px;
+
+  }
+
+  nav ul a:hover{
+    background-color: transparent !important;
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .nav-wrapper ul{
+    margin-right: 20px;
+  }
+  .card-content {
+    height: 60px;
+    overflow: scroll;
+  }
+  .catcard {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 5% !important;
+    align-content: center;
+  }
+  .catcard .category {
+    width: 70%;
+  }
+  .catbody {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .catbutton {
+    width: 50% !important;
+  }
+  .editwrapper {
+    margin-top: 10%;
+  }

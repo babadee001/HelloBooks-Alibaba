@@ -1,0 +1,28 @@
+sudo: false
+dist: trusty
+language: node_js
+node_js:
+- "stable"
+after_success:
+- npm run coveralls
+- codeclimate-test-reporter < coverage/lcov.info
+- ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+services:
+  - postgresql
+before_script:
+  - psql -c 'drop database if exists libdb;' -U postgres
+  - psql -c 'create database libdb;' -U postgres
+  - npm install jest
+  - npm install -g codeclimate-test-reporter
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+script:
+  - npm run client:test
+env:
+global:
+  - CC_TEST_REPORTER_ID=8e713c16d06f01113d1991406da73fb6ac1f7cb57c952bcd053c782aea42d5fb
+  - dialect=postgres
+  - NODE_ENV=test
+addons:
+  postgresql: "9.3"

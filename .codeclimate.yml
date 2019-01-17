@@ -1,0 +1,32 @@
+engines:
+  eslint:
+    enabled: true
+    checks:
+      import/no-unresolved:
+        enabled: false
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - javascript
+ratings:
+  paths:
+  - "**.js"
+exclude_paths:
+- server/test/
+- template/
+- node_modules/
+- client/src/jsFiles/
+checks:
+  method-lines:
+    config:
+      threshold: 70
+  complex-logic:
+    config:
+      threshold: 25
+  method-complexity:
+    config:
+      threshold: 8
+  return-statements:
+    config:
+      threshold: 20
