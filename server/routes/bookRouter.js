@@ -150,7 +150,7 @@ dotenv.load(); // Get all books
 }
  */
 bookRouter.route('/')
-  .get(isLoggedIn, list);
+  .get(list);
 bookRouter.route('/')
 /**
  * @swagger
